@@ -7,7 +7,7 @@ import {
   Button,
   Form,
   FormGroup,
-  Label,
+
   Input,
 } from 'reactstrap'
 import actividad1 from '../../assets/img/usoC/usoV2.png'
