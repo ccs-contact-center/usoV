@@ -91,6 +91,7 @@ class Actividad3View extends Component {
                                 type="text"
                                 name="palabra1"
                                 id="palabra1"
+                                maxlength="1"
                                 value={this.state.palabra1}
                                 onChange={this.onChange.bind(this)}
                                 style={{
@@ -117,6 +118,7 @@ class Actividad3View extends Component {
                                 type="text"
                                 name="palabra2"
                                 id="palabra2"
+                                maxlength="1"
                                 value={this.state.palabra2}
                                 onChange={this.onChange.bind(this)}
                                 style={{
@@ -142,6 +144,7 @@ class Actividad3View extends Component {
                                 type="text"
                                 name="palabra3a"
                                 id="palabra3a"
+                                maxlength="1"
                                 value={this.state.palabra3a}
                                 onChange={this.onChange.bind(this)}
                                 style={{
@@ -164,6 +167,7 @@ class Actividad3View extends Component {
                                 type="text"
                                 name="palabra3b"
                                 id="palabra3b"
+                                maxlength="1"
                                 value={this.state.palabra3b}
                                 onChange={this.onChange.bind(this)}
                                 style={{
@@ -188,6 +192,7 @@ class Actividad3View extends Component {
                                 type="text"
                                 name="palabra4"
                                 id="palabra4"
+                                maxlength="1"
                                 value={this.state.palabra4}
                                 onChange={this.onChange.bind(this)}
                                 style={{
@@ -212,6 +217,7 @@ class Actividad3View extends Component {
                                 type="text"
                                 name="palabra5a"
                                 id="palabra5a"
+                                maxlength="1"
                                 value={this.state.palabra5a}
                                 onChange={this.onChange.bind(this)}
                                 style={{
@@ -234,6 +240,7 @@ class Actividad3View extends Component {
                                 type="text"
                                 name="palabra5b"
                                 id="palabra5b"
+                                maxlength="1"
                                 value={this.state.palabra5b}
                                 onChange={this.onChange.bind(this)}
                                 style={{
@@ -259,6 +266,7 @@ class Actividad3View extends Component {
                                 type="text"
                                 name="palabra6"
                                 id="palabra6"
+                                maxlength="1"
                                 value={this.state.palabra6}
                                 onChange={this.onChange.bind(this)}
                                 style={{
@@ -284,6 +292,7 @@ class Actividad3View extends Component {
                                 type="text"
                                 name="palabra7"
                                 id="palabra7"
+                                maxlength="1"
                                 value={this.state.palabra7}
                                 onChange={this.onChange.bind(this)}
                                 style={{
@@ -309,6 +318,7 @@ class Actividad3View extends Component {
                                 type="text"
                                 name="palabra8"
                                 id="palabra8"
+                                maxlength="1"
                                 value={this.state.palabra8}
                                 onChange={this.onChange.bind(this)}
                                 style={{
