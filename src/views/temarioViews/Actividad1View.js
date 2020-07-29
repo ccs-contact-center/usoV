@@ -10,7 +10,7 @@ import {
   Label,
   Input,
 } from 'reactstrap'
-import actividad1 from '../../assets/img/usoC/usoV3.png'
+import actividad1 from '../../assets/img/usoV/usoV3.png'
 
 import API_CCS from '../../services/API_CCS'
 const API = new API_CCS()
