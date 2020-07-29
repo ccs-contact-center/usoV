@@ -3,7 +3,7 @@ import { CardBody, CardHeader, Row, Col } from 'reactstrap'
 import  'animate.css';
 
 import logo from '../../assets/img/brand/logo.png'
-import bienvenida from '../../assets/img/usoC/bienvenida.png'
+import bienvenida from '../../assets/img/usoV/bienvenida.png'
 
 class BienvenidaView extends Component {
   loading = () => (
