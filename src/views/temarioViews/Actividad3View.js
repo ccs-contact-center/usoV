@@ -36,7 +36,7 @@ class Actividad3View extends Component {
       palabra7: '',
       palabra8: '',
       id_ccs: this.Aunth.getProfile().id_ccs,
-      form: "usoB",
+      form: "usoV",
 
     }
   }
