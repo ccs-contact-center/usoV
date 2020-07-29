@@ -11,7 +11,7 @@ import {
   Input,
 } from 'reactstrap'
 import actividad1 from '../../assets/img/usoV/usoV3.png'
-
+import AuthService from  "../../services/AuthService"
 import API_CCS from '../../services/API_CCS'
 const API = new API_CCS()
 
@@ -22,6 +22,7 @@ class ActividadView extends Component {
 
   constructor(state) {
     super(state)
+    this.Auth = new AuthService();
     this.state = {
       checkboxAcierto1: '',
       checkboxAcierto2: '',
@@ -32,6 +33,8 @@ class ActividadView extends Component {
       checkboxAcierto7: '',
       checkboxAcierto8: '',
       checkboxAcierto9: '',
+      id_ccs: this.Auth.getProfile().id_ccs,
+      form: "usoV",
     }
   }
 
@@ -43,8 +46,8 @@ class ActividadView extends Component {
 
   async onSave(e) {
     try {
-      var respuesta = await API.actividad1(this.state)
-      alert('Se guardo la encuesta número ' + respuesta[0].id)
+      var respuesta = await API.guardaActividad(this.state)
+      alert('Se guardo actividad, con id: ' + respuesta[0].id)
     } catch (err) {
       console.log('loggea si hay un error')
     }
@@ -253,7 +256,7 @@ class ActividadView extends Component {
                   </Row>
                 </Col>
               </Row>
-               <p>{JSON.stringify(this.state)}</p> 
+               {/* <p>{JSON.stringify(this.state)}</p>  */}
             </CardBody>
           </Col>
         </Row>
