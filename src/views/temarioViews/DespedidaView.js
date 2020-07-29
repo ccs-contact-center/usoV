@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { CardBody, CardHeader, Col, Row } from 'reactstrap'
-// import EtiquetaTelefonica from '../../assets/img/ImgEtiquetaTelefonica/etiquetaTelefonica.mp4'
+ import usoV from '../../assets/img/usoV/usoV.mp4'
 import ReactPlayer from 'react-player'
 
 class PresentacionView extends Component {
@@ -17,15 +17,12 @@ class PresentacionView extends Component {
         <CardBody className="">
           <Row>
             <Col xs="12" sm="12" md="12" className="centrado-fila mt-3">
-              <div>
-                <h1>Video pendiente...</h1>
                 <ReactPlayer
-                  className="animated bounceInRight delay-5s"
-                  width="100%"
-                  url={'https://www.youtube.com/watch?v=yb4EeJUUras'}
+                  className="animated bounceInRight delay-0s"
+                  width="65%"
+                  url={usoV}
                   controls
                 />
-              </div>
             </Col>
           </Row>
         </CardBody>
