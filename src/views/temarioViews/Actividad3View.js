@@ -12,7 +12,6 @@ import {
 } from 'reactstrap'
 import swal from "sweetalert"
 import actividad1 from '../../assets/img/usoV/usoV2.png'
-import AunthService from "../../services/AuthService"
 import API_CCS from '../../services/API_CCS'
 import AuthService from '../../services/AuthService'
 const API = new API_CCS()
