@@ -93,7 +93,7 @@ class ActividadView extends Component {
               <Row>
                 <Col xs="12">
                   <p>
-                    1.- Atrévete y tacha las palabras que contengan la letra C
+                    1.- Atrévete y tacha las palabras que contengan la letra V
                     mal escrita.
                   </p>
                 </Col>
